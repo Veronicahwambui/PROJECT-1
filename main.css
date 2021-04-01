@@ -1,41 +1,41 @@
 body{
   background-image: url(https://www.arabiaweddings.com/sites/default/files/tips/2015/07/kenya-nature.jpeg);
-  background-size: cover;
+  background-size: cover;/* to cover the whole page*/
   background-repeat: no-repeat;
  
  
 }
-.topnav {
+.topnav {/* list of links and represnts a section of  a page whose purpose is to provide navigation links*/
   overflow: hidden; /*styling a div by giving a special character called topnav */
  
 }
 
 .topnav a {
-  float: left;
+  float: left;/* It specifies show an element  float*/
   color: #f2f2f2;
-  text-align: center;
+  text-align: center;/*used to set the horizontal alignment of the text ,left or right*/
   padding: 20px 35px; /*styling a link and the list*/
   text-decoration: none;
-  font-size: 25px;
+  font-size: 25px;/* It sets the size   of a font*/
 }
 
-.topnav a:hover {
-  background-color: #ddd;
+.topnav a:hover {/*  select and style a link when you mouse over it*/
+  background-color: #ddd; 
   color: black;
 }
 h1{
-  text-align: center;
-  padding-top: 100px;
-  color: #fff;
+  text-align: center;/* styling the heading*/
+  padding-top: 100px; /* It create space around an elements content inside of any define borders*/
+  color: #fff;/*White*/
 }
 p{
-  text-align: center;
-  font-size:20px;
-  color: #fff;
+  text-align: center;/* Is used to set the horizonntal allignment of  a text, it can be left or right*/
+  font-size:20px; /* styling the paragraph*/
+  color: #fff;/*White*/
 
 }
 img{
- margin-left: 200px;
+ margin-left: 200px;/* Used to create space around elements, outside of any defined borders*/
 }
 
 
